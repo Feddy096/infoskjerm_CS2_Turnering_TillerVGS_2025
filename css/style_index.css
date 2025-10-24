@@ -1,63 +1,71 @@
-body{
-    font-family: 'Calibri';
+@font-face {
+    font-family: csFont;
+    src: url(../fonts/cs_regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: positecRegular;
+    src: url(../fonts/PositecRegular.ttf) format('truetype');
+}
+
+body {
+    font-family: 'positecRegular';
     font-size: 20px;
-    background-color: #e38717;
+    background-color: #080716;
+    margin: 0;
 }
 
-h1{
-    color: #e38717;
-    background-color: #bebebe;
-    text-align: center;
-    width: 50%;
-    margin: auto;
-    padding: 15px;
-    border-radius: 20px;
-    border: 3px solid black;
-    margin-top: 2%;
-}
-
-li, h3, h2, p{
-    margin-left: 35px;
-}
-
-ol{
-    background-color: #49558f;
-    color: white;
-    padding: 20px;
-    border-radius: 20px;
-    margin: auto;
-    width: 85%;
-}
-
-a{
-    text-decoration: none;
-    display: inline-block;
-    text-align: center;
-    margin: auto;
-    margin-top: 2%;
-    padding: 1.25 1%;
-    background-color: #49558f;
-    color: white;
-    padding: 1%;
-    padding-left: 3.5%;
-    padding-right: 3.5%;
-    font-size: 40px;
-    margin-left: 12%;
-    border-radius: 20px;
-    border: 3px solid black;
-}
-
-a:hover {
-    background-color: #3b466f;
-}
-
-#InnledendeBestemmelser{
-    margin-top: 20px;
-    border: 3px solid black;
-}
-
-#kampavvikling{
+main {
     margin-top: 50px;
-    border: 3px solid black;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    color: #bebebe;
+}
+
+main ol {
+    background-color: black;
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+
+h2,
+h3,
+p {
+    margin-left: 40px;
+}
+
+img {
+    margin: 0;
+    width: 100%;
+    top: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: csFont;
+    background-color: black;
+    color: white;
+    width: 28%;
+    margin: auto;
+    padding: 30px;
+    border-top: 1px solid #6e9bbb;
+}
+
+h2,
+h3 {
+    color: white
+}
+
+footer {
+    background-color: black;
+    color: #a1a1a1;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+#InnledendeBestemmelser,
+#kampavvikling {
+    border-left: 1px solid #6e9bbb;
+    margin-top: 20px;
 }
