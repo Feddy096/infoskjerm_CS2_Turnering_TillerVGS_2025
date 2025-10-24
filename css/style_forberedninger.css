@@ -1,63 +1,70 @@
+@font-face {
+  font-family: csFont;
+  src: url("../fonts/cs_regular.ttf");
+}
+@font-face {
+  font-family: PositecRegular;
+  src: url("../fonts/PositecRegular.ttf");
+}
+
 body {
-  font-family: "Calibri", sans-serif;
-  font-size: 25px;
-  background-color: #bebebe;
+  font-family: PositecRegular;
+  font-size: 30px;
+  background-color: #080716;
+  color: #bebebe;
 }
 
-a {
-  text-decoration: none;
-  display: inline-block;
-  text-align: center;
-  margin: auto;
-  margin-top: 2%;
-  padding: 1.25 1%;
-  background-color: #49558f;
-  color: white;
-  padding: 1%;
-  padding-left: 3.5%;
-  padding-right: 3.5%;
-  font-size: 40px;
-  margin-left: 12%;
-  border-radius: 20px;
-  border: 3px solid black;
-  &:hover {
-    background-color: #3b466f;
-  }
+ol {
+  border-left: 1px solid #6e9bbb;
 }
 
-li,
-ol {
-  margin-bottom: 10px;
-  background-color: #e38717;
-  float: center;
-  width: 90%;
-  padding: 10px;
-  margin-left: 5%;
+main {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #bebebe;
 }
-ol {
-  border: 3px solid black;
-  border-radius: 20px;
-}
+main,
+ol li,
+h2,
 p {
-  text-align: center;
-  margin-left: 1.5%;
-  background-color: #d9d9d9;
-  width: 90%;
-  margin-left: 5%;
-  padding: 10px;
-  border-radius: 20px;
-  border: 3px solid black;
+  margin-left: 20px;
 }
+
 h1 {
-  font-size: 40px;
-  margin-top: 2%;
-  background-color: #49558f;
   text-align: center;
-  width: 100%;
-  padding: 10px;
+  width: 28%;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
   color: white;
-  left: 0;
-  margin-left: -1%;
+  font-family: csFont;
+  border-top: 1px solid #6e9bbb;
+  background-color: black;
   padding: 1%;
-  border: black 3px solid;
+  padding-right: 60px;
+}
+
+h2 {
+  color: white;
+  width: 80%;
+  margin: auto;
+  background-color: black;
+  padding: 30px;
+  margin-top: 1%;
+}
+
+main ol,
+p {
+  width: 80%;
+  margin: auto;
+  background-color: black;
+  padding: 30px;
+}
+
+footer {
+  background-color: black;
+  color: #a1a1a1;
+  text-align: center;
+  padding: 10px;
+  margin-top: 370px;
 }
